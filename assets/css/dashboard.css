@@ -1,0 +1,70 @@
+*,body,html {
+  padding:0;
+  margin:0;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.clear {
+  clear:both;
+}
+body {
+  background:#fff;
+
+}
+html,body {
+  
+  font-weight: lighter;
+}
+header {
+  padding:5px;
+  background:#000;
+  color:grey;
+}
+header p{
+  font-size: 2em;
+  text-align: center;
+}
+header a {
+  color:white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+#form {
+  width:40%;
+  margin:0 auto;
+}
+form {
+  margin-top:50px;
+}
+header span:first-child {
+  font-size: 2em;
+  float:left;
+}
+header ul {
+  float:right;
+}
+header ul li {
+  width:300px;
+  display: inline;
+}
+#formAddOtherPic{
+  display: none;
+  background:rgba(0,0,0,0.2);
+  border-radius: 30px;
+  width:400px;
+  margin:0 auto;
+}
+#formAddOtherPic p {
+  text-align: center;
+  padding-top:10px;
+  font-size:18px;
+}
+#formAddOtherPic form {
+  padding:10px;
+  width:90%;
+  margin:0 auto;
+}
+#formAddOtherPic form label{
+  font-weight: lighter;
+
+}
